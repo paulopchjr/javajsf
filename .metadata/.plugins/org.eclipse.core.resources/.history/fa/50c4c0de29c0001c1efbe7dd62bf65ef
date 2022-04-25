@@ -1,0 +1,16 @@
+package br.com.cursojsf;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+
+@ViewScoped
+@ManagedBean
+public class CarrosBean {
+	
+	public String nome;
+	private List<String>carros = new ArrayList()/
+
+}

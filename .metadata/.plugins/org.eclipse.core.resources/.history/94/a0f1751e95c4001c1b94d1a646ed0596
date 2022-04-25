@@ -1,0 +1,23 @@
+package br.com.cursojsf;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+
+
+@ViewScoped
+@ManagedBean
+public class PessoaBean {
+	
+	private String nome;
+	private List<String> lNomes = new ArrayList<String>();
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package br.com.cursojsf;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+import javax.faces.component.html.HtmlCommandButton;
+
+@ViewScoped
+@ManagedBean
+public class CarrosBean {
+	
+	private String nome;
+	private List<String>carros = new ArrayList<String>();
+	
+	private HtmlCommandButton htmlCommandButton
+	
+	
+}

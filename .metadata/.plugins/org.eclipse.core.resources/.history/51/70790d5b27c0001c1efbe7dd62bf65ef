@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>Cadastro de Fruta</title>
+</h:head>
+<h:body>
+	<h3>Cad.Frutas</h3>
+	<h:form>
+		<h:outputLabel>Nome:</h:outputLabel>
+		<h:inputText id="nome" value="#{frutaBean.nome}"></h:inputText>
+		<br/><br/>
+		<h:commandButton binding="#{frutaBean}" value="Adicionar na lista" action="#{frutaBean.addFrutas}"></h:commandButton>
+		<br/><br/>
+		<h:dataTable value="#{frutaBean.listaFrutas}"></h:dataTable>
+		<
+	</h:form>
+	
+	
+
+</h:body>
+</html>

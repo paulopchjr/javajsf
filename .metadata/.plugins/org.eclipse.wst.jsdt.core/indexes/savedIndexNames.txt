@@ -1,0 +1,22 @@
+INDEX VERSION 1.4+D:\Curso Java - JDevTreinamento\Modulo 24\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1953689083.index
+1755569865.index
+2400973774.index
+3377223158.index
+1648527421.index
+1552440659.index
+113237790.index
+2315375165.index
+4162634584.index
+370319988.index
+1711240690.index
+1719162619.index
+758889694.index
+3775394329.index
+3200034144.index
+1513917512.index
+1907945352.index
+2516632207.index
+1049729686.index
+3528713685.index
+1628803810.index

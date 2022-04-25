@@ -1,0 +1,40 @@
+package br.com.cursojsf;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+import javax.faces.component.html.HtmlCommandButton;
+
+
+@ViewScoped
+@ManagedBean
+public class PessoaBean {
+	
+	private String nome;
+	private List<String> lNomes = new ArrayList<String>();
+	private HtmlCommandButton htmlCommandButton;
+	
+	public String addNome() {
+		
+		if(lNomes.size() > 3) {
+			htmlCommandButton.setDisabled(true);
+			return "";
+		
+		}
+		
+		return "";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

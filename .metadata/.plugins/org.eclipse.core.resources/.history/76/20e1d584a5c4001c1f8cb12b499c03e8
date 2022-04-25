@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>Aula 38 - inputtext, inputsecret e inputTextArea - Componentes de entrada do JSF</title>
+
+
+	<script>
+		function alterarValorDoCampo() {
+			 var campo = document.getElementById("formPessoa:nome");
+				campo.value ='Eu cliquei no campo';
+		}
+	</script>
+
+</h:head>
+
+<h:body>
+Aula 38 - inputtext, inputsecret e inputTextArea - Componentes de entrada do JSFAula 37 - Eventos DHTML com JSF</h2>
+
+	<h5>HOME</h5>
+
+
+	<h:form id="formPessoa">
+
+		<h:inputText id="nome" onclick="this.value='troquei o valor'" onchange="this.value = this.value.toUpperCase();"></h:inputText>
+		<h:commandButton value="clicar" onclick="alterarValorDoCampo();"></h:commandButton>
+
+		<br /><br/>
+
+		<h:commandButton value="Formulario de Pessoas" action="formularioP"></h:commandButton>
+
+	</h:form>
+
+</h:body>
+
+</html>

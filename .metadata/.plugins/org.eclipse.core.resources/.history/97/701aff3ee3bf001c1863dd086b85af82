@@ -1,0 +1,13 @@
+package br.com.cursojsf;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PessoaBean {
+	
+	private String nome;
+	
+	private List<String> nomes = new ArrayList<String>();
+	
+
+}

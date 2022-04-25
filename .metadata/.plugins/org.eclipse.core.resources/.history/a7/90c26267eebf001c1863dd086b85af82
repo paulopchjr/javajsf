@@ -1,0 +1,8 @@
+package br.com.cursojsf;
+
+public class ProdutoBean {
+
+	private String nome;
+	
+	
+}

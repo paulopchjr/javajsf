@@ -1,0 +1,11 @@
+package br.com.cursojsf;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
+
+@ViewScoped
+@ManagedBean
+public class FrutasBean {
+
+	private String nome
+}
